@@ -1,9 +1,11 @@
 ---
-import Card from "../components/Card.astro";
-import Layout from "../layouts/Layout.astro";
+import Layout from "@/layouts/Layout.astro";
+import Card from "@/components/Card.astro";
+
+const appName = import.meta.env.APP_NAME ?? "";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={appName}>
   <main>
     <svg
       class="astro-a"

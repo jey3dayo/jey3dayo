@@ -1,5 +1,8 @@
 module.exports = {
   $schema: "https://json.schemastore.org/eslintrc",
+  env: {
+    node: true,
+  },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -25,9 +28,9 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  ignorePatterns: ["public", "dist", "node_modules"],
   rules: {
     "tailwindcss/classnames-order": "error",
     "@typescript-eslint/no-non-null-assertion": "warn",
+    "tailwindcss/no-custom-classname": 0,
   },
 };

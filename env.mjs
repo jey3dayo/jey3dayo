@@ -1,14 +1,13 @@
-import { createEnv } from "@t3-oss/env-nextjs";
+import { createEnv } from "@t3-oss/env-core";
 import { z } from "zod";
 
-const env = createEnv({
-  server: {},
+export const env = createEnv({
+  server: {
+    PORT: z.string(),
+  },
   client: {
     APP_NAME: z.string().min(1),
   },
-  runtimeEnv: {
-    APP_NAME: process.env?.APP_NAME,
-  },
-});
 
-export { env };
+  APP_NAME: import.meta.env.APP_NAME,
+});

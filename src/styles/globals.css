@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: var(--slate1);
+    --foreground: var(--slate11);
+    --card: var(--slate1);
+    --card-foreground: var(--slate12);
+    --popover: var(--slate1);
+    --popover-foreground: var(--slate12);
+    --primary: var(--violet11);
+    --primary-foreground: var(--slate2);
+    --secondary: var(--teal10);
+    --secondary-foreground: var(--slate3);
+    --muted: var(--slate3);
+    --muted-foreground: var(--slate10);
+    --weak: var(--slate11);
+    --weak-foreground: var(--slate2);
+    --accent: var(--teal10);
+    --accent-foreground: var(--slate12);
+    --destructive: var(--red9);
+    --destructive-foreground: var(--slate2);
+    --warning: var(--amber10);
+    --warning-foreground: var(--slate12);
+    --border: var(--slate6);
+    --border-weak: var(--slate4);
+    --input: var(--slate5);
+    --ring: var(--slate8);
+    --radius: 0.5rem;
+    --ui: var(--slate4);
+    --ui-weak: var(--slate3);
+    --ui-strong: var(--slate5);
+    --ui-foreground: var(--slate10);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-foreground text-background;
+
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
+  }
+
+  ::selection {
+    @apply bg-primary text-background;
+  }
+
+  ::-moz-selection {
+    @apply bg-primary text-background;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  min-height: 100vh;
+}

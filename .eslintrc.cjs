@@ -1,7 +1,6 @@
 module.exports = {
   $schema: "https://json.schemastore.org/eslintrc",
   extends: [
-    "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -21,7 +20,7 @@ module.exports = {
       },
     },
   ],
-  plugins: ["@typescript-eslint", "react", "tailwindcss", "filenames"],
+  plugins: ["@typescript-eslint", "react", "tailwindcss"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "./tsconfig.json",
@@ -29,7 +28,6 @@ module.exports = {
   ignorePatterns: ["public", "dist", "node_modules"],
   rules: {
     "tailwindcss/classnames-order": "error",
-    "filenames/match-regex": ["error", "^[a-z0-9]+(-[a-z0-9]+)*(.test|.mock|.config|.d)?$"],
     "@typescript-eslint/no-non-null-assertion": "warn",
   },
 };

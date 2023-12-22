@@ -1,11 +1,21 @@
 import radixUiColors from "@radix-ui/colors";
 import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
+import tailwindColors from "tailwindcss/colors";
 import { createPlugin } from "windy-radix-palette";
 
 const radixGrayColor = "slate";
 const primaryColor = "violet";
 const accentColor = "teal";
+
+export const grayColor = "neutral";
+const palette = {
+  black: tailwindColors[grayColor]["950"],
+  dark: tailwindColors[grayColor]["800"],
+  medium: tailwindColors[grayColor]["500"],
+  light: tailwindColors[grayColor]["100"],
+  white: tailwindColors[grayColor]["50"],
+};
 
 const windyRadixPalette = createPlugin();
 
@@ -26,43 +36,44 @@ const config: Config = {
         "gray-color": windyRadixPalette.alias(radixGrayColor),
         "accent-color": windyRadixPalette.alias(accentColor),
         ...radixUiColors,
+        ...palette,
 
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        border: "var(--border)",
+        input: "var(--input)",
+        ring: "var(--ring)",
+        background: "var(--background)",
+        foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "var(--primary)",
+          foreground: "var(--primary-foreground)",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "var(--secondary)",
+          foreground: "var(--secondary-foreground)",
         },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          DEFAULT: "var(--destructive)",
+          foreground: "var(--destructive-foreground)",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "var(--muted)",
+          foreground: "var(--muted-foreground)",
         },
         weak: {
-          DEFAULT: "hsl(var(--weak))",
-          foreground: "hsl(var(--weak-foreground))",
+          DEFAULT: "var(--weak)",
+          foreground: "var(--weak-foreground)",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "var(--accent)",
+          foreground: "var(--accent-foreground)",
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "var(--popover)",
+          foreground: "var(--popover-foreground)",
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "var(--card)",
+          foreground: "var(--card-foreground)",
         },
       },
       borderRadius: {

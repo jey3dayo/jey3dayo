@@ -11,7 +11,7 @@
   "backend": ["Next.js", "Rails", "Java", "PHP", "Spring Framework"],
   "mobile": ["React Native", "Objective-C", "App Center"],
   "infrastructure": ["AWS", "ECS", "CloudFront", "Docker", "chef"],
-  "ops": ["CircleCI", "New Relic", "Datadog", "Sentry"],
+  "ops": ["Github Actions", "CircleCI", "New Relic", "Datadog", "Sentry"],
   "tools": ["neovim", "WezTerm", "Zsh", "XCode", "Vivaldi", "Vimperator"]
 }
 ```

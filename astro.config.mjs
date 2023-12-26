@@ -15,4 +15,11 @@ export default defineConfig({
     }),
     preact(),
   ],
+  markdown: {
+    shikiConfig: {
+      theme: "rose-pine-moon",
+      langs: ["json"],
+      wrap: true,
+    },
+  },
 });

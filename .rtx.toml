@@ -2,4 +2,4 @@ env_path = ['./node_modules/.bin']
 env_file = './.env.local'
 
 [tools]
-node = '18.18.2'
+node = '18.19.0'

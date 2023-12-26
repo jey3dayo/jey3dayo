@@ -11,5 +11,5 @@ export const env = createEnv({
   },
 
   APP_NAME: import.meta.env.APP_NAME,
-  SITE_DOMAIN: import.meta.env.SITER_DOMAIN,
+  SITE_DOMAIN: import.meta.env.SITE_DOMAIN,
 });

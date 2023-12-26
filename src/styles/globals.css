@@ -42,11 +42,23 @@
   }
 
   body {
-    @apply bg-foreground text-background;
+    @apply bg-background text-foreground;
 
     font-feature-settings:
       "rlig" 1,
       "calt" 1;
+  }
+}
+
+@layer components {
+  .box {
+    @apply shadow-highlight bg-gray-color-3 text-foreground rounded-md;
+  }
+
+  .hero {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
   }
 }
 

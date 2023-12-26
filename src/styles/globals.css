@@ -52,11 +52,11 @@
 
 @layer components {
   .box {
-    @apply shadow-highlight bg-gray-color-3 text-foreground rounded-md;
+    @apply shadow-highlight rounded-md bg-gray-color-3 text-foreground;
   }
 
   .hero {
-    background-image: url('/images/bg.jpg');
+    background-image: url("/images/bg.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -77,4 +77,10 @@ html {
     Droid Sans,
     Helvetica Neue,
     sans-serif;
+}
+
+pre {
+  background-color: inherit !important;
+  padding: 10px;
+  border-radius: 5px;
 }

@@ -15,10 +15,10 @@
     "astro": "astro",
     "test": "run-p test:*",
     "test:eslint": "eslint './**/*.{js,mjs,cjs,jsx,ts,tsx,astro}'",
-    "test:prettier": "prettier --check --cache './**/*.{js,mjs,cjs,jsx,ts,tsx,astro,json,css}'",
+    "test:prettier": "prettier --check --cache './**/*.{js,mjs,cjs,jsx,ts,tsx,astro,json,css,yml,yaml}'",
     "test:astro": "astro check",
     "format": "run-s format:*",
-    "format:write": "prettier --write --cache './**/*.{js,mjs,cjs,jsx,ts,tsx,astro,json,css}'",
+    "format:write": "prettier --write --cache './**/*.{js,mjs,cjs,jsx,ts,tsx,astro,json,css,yml,yaml}'",
     "ncu": "ncu -u"
   },
   "devDependencies": {

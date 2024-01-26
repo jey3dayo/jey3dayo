@@ -7,7 +7,7 @@
     "node": ">=16.0.0 <=18.x.x"
   },
   "scripts": {
-    "postinstall": "run-s husky:install",
+    "husky:install": "husky install .husky",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
@@ -19,7 +19,6 @@
     "test:astro": "astro check",
     "format": "run-s format:*",
     "format:write": "prettier --write --cache './**/*.{js,mjs,cjs,jsx,ts,tsx,astro,json,css}'",
-    "husky:install": "husky install .husky",
     "ncu": "ncu -u"
   },
   "devDependencies": {

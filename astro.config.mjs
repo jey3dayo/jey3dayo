@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import image from "@astrojs/image";
 import preact from "@astrojs/preact";
 import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
@@ -14,7 +15,13 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     preact(),
+    image(),
   ],
+  vite: {
+    ssr: {
+      noExternal: ["astro", "@astrojs/image"],
+    },
+  },
   markdown: {
     shikiConfig: {
       theme: "rose-pine-moon",

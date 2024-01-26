@@ -1,7 +1,9 @@
 [formatter.prettier]
 command = "prettier"
-options = ["--ignore-path", ".prettierignore", "--write"]
+options = ["--write"]
+
 includes = [
+  "*.astro",
   "*.css",
   "*.scss",
   "*.html",

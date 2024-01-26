@@ -3,6 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "packageManager": "bun@1.0.0",
+  "engines": {
+    "node": ">=16.0.0 <=18.x.x"
+  },
   "scripts": {
     "postinstall": "run-s husky:install",
     "dev": "astro dev",

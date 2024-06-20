@@ -17,7 +17,7 @@
   "mobile": ["React Native", "Objective-C", "App Center"],
   "infrastructure": ["AWS", "ECS", "CloudFront", "Docker", "chef"],
   "ops": ["Github Actions", "CircleCI", "New Relic", "Datadog", "Sentry"],
-  "tools": ["neovim", "WezTerm", "Zsh", "XCode", "Vivaldi", "Vimperator"]
+  "tools": ["Neovim", "WezTerm", "Zsh", "XCode", "Vivaldi", "Vimperator"]
 }
 
 ```

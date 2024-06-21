@@ -61,6 +61,7 @@
     "astro": "^4.2.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "execa": "^9.2.0",
     "lucide-react": "^0.315.0",
     "neovim": "^4.10.1",
     "npm-check-updates": "^16.14.13",

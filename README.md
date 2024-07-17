@@ -1,4 +1,5 @@
-![](https://raw.githubusercontent.com/jey3dayo/jey3dayo/main/profile-summary-card-output/zenburn/0-profile-details.svg)
+<img src="https://raw.githubusercontent.com/jey3dayo/jey3dayo/main/profile-summary-card-output/zenburn/0-profile-details.svg" width="684" />
+
 ![](https://raw.githubusercontent.com/jey3dayo/jey3dayo/main/profile-summary-card-output/zenburn/1-repos-per-language.svg)
 ![](https://raw.githubusercontent.com/jey3dayo/jey3dayo/main/profile-summary-card-output/zenburn/2-most-commit-language.svg)
 

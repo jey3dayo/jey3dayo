@@ -18,6 +18,8 @@
 
 [![dotfiles](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=github_dark#gh-dark-mode-only)](https://github.com/jey3dayo/dotfiles#gh-dark-mode-only)
 [![dotfiles](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=default#gh-light-mode-only)](https://github.com/jey3dayo/dotfiles#gh-light-mode-only)
+[![apm-workspace](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=apm-workspace&theme=github_dark#gh-dark-mode-only)](https://github.com/jey3dayo/apm-workspace#gh-dark-mode-only)
+[![apm-workspace](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=apm-workspace&theme=default#gh-light-mode-only)](https://github.com/jey3dayo/apm-workspace#gh-light-mode-only)
 
 ## Who am I ?
 

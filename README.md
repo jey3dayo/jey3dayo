@@ -13,9 +13,7 @@
   </a>
 </p>
 
-<img src="https://github-stats-extended.vercel.app/api?username=jey3dayo&theme=zenburn" width="684" />
-
-![](https://github-stats-extended.vercel.app/api/top-langs?username=jey3dayo&theme=zenburn)
+![](https://github-stats-extended.vercel.app/api/top-langs?username=jey3dayo&theme=kanagawa)
 
 ## Who am I ?
 

@@ -13,11 +13,9 @@
   </a>
 </p>
 
+<img src="https://github-stats-extended.vercel.app/api?username=jey3dayo&theme=zenburn" width="684" />
 
-<img src="https://raw.githubusercontent.com/jey3dayo/jey3dayo/main/profile-summary-card-output/zenburn/0-profile-details.svg" width="684" />
-
-![](https://raw.githubusercontent.com/jey3dayo/jey3dayo/main/profile-summary-card-output/zenburn/1-repos-per-language.svg)
-![](https://raw.githubusercontent.com/jey3dayo/jey3dayo/main/profile-summary-card-output/zenburn/2-most-commit-language.svg)
+![](https://github-stats-extended.vercel.app/api/top-langs?username=jey3dayo&theme=zenburn)
 
 ## Who am I ?
 
@@ -34,5 +32,4 @@
   "ops": ["Github Actions", "CircleCI", "New Relic", "Datadog", "Sentry"],
   "tools": ["Neovim", "WezTerm", "Zsh", "XCode", "Vivaldi", "Vimperator"]
 }
-
 ```

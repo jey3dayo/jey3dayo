@@ -16,10 +16,10 @@
 [![Top Langs](https://github-stats-extended.vercel.app/api/top-langs?username=jey3dayo&theme=github_dark#gh-dark-mode-only)](https://github.com/jey3dayo#gh-dark-mode-only)
 [![Top Langs](https://github-stats-extended.vercel.app/api/top-langs?username=jey3dayo&theme=default#gh-light-mode-only)](https://github.com/jey3dayo#gh-light-mode-only)
 
-[![dotfiles](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=github_dark#gh-dark-mode-only)](https://github.com/jey3dayo/dotfiles#gh-dark-mode-only)
-[![dotfiles](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=default#gh-light-mode-only)](https://github.com/jey3dayo/dotfiles#gh-light-mode-only)
-[![apm-workspace](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=apm-workspace&theme=github_dark#gh-dark-mode-only)](https://github.com/jey3dayo/apm-workspace#gh-dark-mode-only)
-[![apm-workspace](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=apm-workspace&theme=default#gh-light-mode-only)](https://github.com/jey3dayo/apm-workspace#gh-light-mode-only)
+<a href="https://github.com/jey3dayo/dotfiles#gh-dark-mode-only"><img width="400" alt="dotfiles" src="https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=github_dark#gh-dark-mode-only" /></a>
+<a href="https://github.com/jey3dayo/dotfiles#gh-light-mode-only"><img width="400" alt="dotfiles" src="https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=default#gh-light-mode-only" /></a>
+<a href="https://github.com/jey3dayo/apm-workspace#gh-dark-mode-only"><img width="400" alt="apm-workspace" src="https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=apm-workspace&theme=github_dark#gh-dark-mode-only" /></a>
+<a href="https://github.com/jey3dayo/apm-workspace#gh-light-mode-only"><img width="400" alt="apm-workspace" src="https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=apm-workspace&theme=default#gh-light-mode-only" /></a>
 
 ## Who am I ?
 

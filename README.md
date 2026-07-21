@@ -16,6 +16,9 @@
 [![Top Langs](https://github-stats-extended.vercel.app/api/top-langs?username=jey3dayo&theme=github_dark#gh-dark-mode-only)](https://github.com/jey3dayo#gh-dark-mode-only)
 [![Top Langs](https://github-stats-extended.vercel.app/api/top-langs?username=jey3dayo&theme=default#gh-light-mode-only)](https://github.com/jey3dayo#gh-light-mode-only)
 
+[![dotfiles](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=github_dark#gh-dark-mode-only)](https://github.com/jey3dayo/dotfiles#gh-dark-mode-only)
+[![dotfiles](https://github-stats-extended.vercel.app/api/pin?username=jey3dayo&repo=dotfiles&theme=default#gh-light-mode-only)](https://github.com/jey3dayo/dotfiles#gh-light-mode-only)
+
 ## Who am I ?
 
 ```json

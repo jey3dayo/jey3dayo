@@ -33,6 +33,9 @@
 </tr>
 </table>
 
+[![My Skills](https://skillicons.dev/icons?i=react,materialui,nextjs,go,rails,java,php,spring,aws,docker,githubactions,sentry,neovim,vim#gh-dark-mode-only)](https://skillicons.dev#gh-dark-mode-only)
+[![My Skills](https://skillicons.dev/icons?i=react,materialui,nextjs,go,rails,java,php,spring,aws,docker,githubactions,sentry,neovim,vim&theme=light#gh-light-mode-only)](https://skillicons.dev#gh-light-mode-only)
+
 ## Who am I ?
 
 ```json
